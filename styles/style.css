@@ -16,6 +16,9 @@ body {
     max-width: 1440px;
     height: 652px;
     margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner-content {
