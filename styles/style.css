@@ -68,7 +68,7 @@ body {
 
 .two {
     max-width: 1140px;
-    height: 1395px;
+    height: 1200px;
     margin: 0 auto;
     margin-top: 74px;
     border-radius: 16px;
@@ -118,10 +118,12 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.first-section-text{
+
+.first-section-text {
     width: 477px;
     height: 140px;
 }
+
 .first-section-text h3 {
     color: rgb(13, 19, 33);
     font-size: 32px;
@@ -154,14 +156,17 @@ body {
     text-align: center;
     cursor: pointer;
 }
-.first-section-image{
+
+.first-section-image {
     width: 274.17px;
-height: 240px;
+    height: 240px;
 }
+
 .first-section-image img {
     width: 259.56px;
     height: 217.01px;
 }
+
 /* second section */
 .second-section {
     width: 946px;
@@ -178,10 +183,12 @@ height: 240px;
     margin: 48px;
     display: flex;
 }
-.second-section-text{
+
+.second-section-text {
     width: 477px;
     height: 140px;
 }
+
 .second-section-text h3 {
     color: rgb(13, 19, 33);
     font-size: 32px;
@@ -215,11 +222,67 @@ height: 240px;
     cursor: pointer;
 }
 
-.second-section-image{
+.second-section-image {
     width: 240px;
-height: 240px;
+    height: 240px;
 }
+
 .second-section-image img {
     width: 223.2px;
     height: 208.85px;
+}
+
+.btn button a {
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+/* third-section */
+
+.three {
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+
+.section-three-container {
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.section-three-container h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+
+.section-three-container p {
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.video {
+    width: 1140px;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 16px;
 }
