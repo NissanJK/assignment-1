@@ -292,18 +292,154 @@ body {
     border-radius: 16px;
 }
 
+/* section four */
+.fourth-section-content {
+
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 151px;
+    margin-bottom: 111px;
+}
+
+.fourth-section-content .title-part {
+    width: 946px;
+    height: 113px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.fourth-section-content .title-part h1 {
+    width: 852px;
+    height: 37px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.fourth-section-content .title-part p {
+    width: 852px;
+    height: 52px;
+    margin: 0 auto;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+
+}
+
+.skill-introduction-part {
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-introduction-part .html-container {
+    width: 364px;
+    height: 299px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.html-container .html {
+    width: 284px;
+    height: 219px;
+    margin: 40px;
+}
+
+.skill-introduction-part .css-container {
+    width: 364px;
+    height: 299px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.css-container .css {
+    width: 284px;
+    height: 219px;
+    margin: 40px;
+}
+
+.skill-introduction-part .java-container {
+    width: 364px;
+    height: 299px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.java-container .javascript {
+    width: 284px;
+    height: 219px;
+    margin: 40px;
+}
+
+.css img,
+.javascript img,
+.html img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+.css h1,
+.javascript h1,
+.html h1 {
+    width: 284px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.css p,
+.javascript p,
+.html p {
+    width: 284px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.css a,
+.javascript a,
+.html a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+}
+
 /* section five */
 
 .five {
     width: 1140px;
     height: 320px;
-    background-image: url("../assets/handshake.jpg");
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../assets/handshake.jpg");
     margin: 0 auto;
     margin-top: 49px;
     margin-bottom: 80px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 16px;
     background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
 
 }
